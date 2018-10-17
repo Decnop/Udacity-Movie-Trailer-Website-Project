@@ -7,6 +7,13 @@ class Filme():
         def __init__ method initializes a instance with the 3 parameters
         title (string), poster_image_url(string, trailer_youtube_url(string.
 
+        Attributes:
+        title (str): Is the title of the movie.
+        poster_image_url (str): Is the url for an image that will be displayed
+        as the poster of the movie.
+        trailer_youtube_url (str): Is the url for a youtube video that will be
+        the trailer for the movie.
+
         fresh_tomatoes file is imported. Inside this module there is a method
         that creates the webpage.
 
